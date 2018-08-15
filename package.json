@@ -2,13 +2,16 @@
   "name": "collapsable-side-menu",
   "version": "1.0.0",
   "description": "A growing set of small tools to help making responsive collapsable menus",
-  "main": "menu-styles.css",
+  "main": "styles.css",
   "dependencies": {
     "media-query-mixins": "^2.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "stylus styles.styl"
   },
   "repository": {
     "type": "git",
