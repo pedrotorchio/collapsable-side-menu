@@ -1,6 +1,6 @@
 {
   "name": "collapsable-side-menu",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "A growing set of small tools to help making responsive collapsable menus",
   "main": "styles.css",
   "dependencies": {
