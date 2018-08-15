@@ -73,6 +73,7 @@ hamburguer-strip(space)
     background-color: color;
     border-radius: 0;
     box-shadow: inset 0 0 500px 100px color;
+    animation-name: appearence;
 
     &:before, &:after
       delay(false, true);
@@ -88,3 +89,9 @@ hamburguer-strip(space)
 
   +lg()
     display: none;
+
+@keyframes appearence
+  0%
+    opacity: 0;
+  100%
+    opacity: 1;
