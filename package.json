@@ -1,0 +1,32 @@
+{
+  "name": "collapsable-side-menu",
+  "version": "1.0.0",
+  "description": "A growing set of small tools to help making responsive collapsable menus",
+  "main": "menu-styles.css",
+  "dependencies": {
+    "media-query-mixins": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrotorchio/collapsable-side-menu.git"
+  },
+  "keywords": [
+    "stylus",
+    "css",
+    "side",
+    "menu",
+    "navigation",
+    "nav",
+    "framework"
+  ],
+  "author": "pedrotorchio <pedro@torchiodev.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrotorchio/collapsable-side-menu/issues"
+  },
+  "homepage": "https://github.com/pedrotorchio/collapsable-side-menu#readme"
+}
