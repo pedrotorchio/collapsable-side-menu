@@ -1,4 +1,4 @@
-.collapsable-header {
+.collapsable-sidebar {
   background-color: #fff;
   width: 200px;
   height: 100vh;
@@ -9,22 +9,22 @@
   transition-delay: 0s;
   transition-timing-function: ease-in-out;
 }
-.collapsable-header.open {
+.collapsable-sidebar.open {
   left: 0;
   transition-delay: 0.1s !important;
   transition-timing-function: ease-in-out;
 }
 @media (min-width: 1025px) {
-  .collapsable-header {
+  .collapsable-sidebar {
     left: 0;
   }
 }
-.collapsable-header,
-.collapsable-header-hamburguer {
+.collapsable-sidebar,
+.collapsable-sidebar-hamburguer {
   transition: left 0.5s cubic-bezier(0, 0.08, 0, 1.01);
   position: fixed;
 }
-.collapsable-header-hamburguer {
+.collapsable-sidebar-hamburguer {
   content: '';
   height: 4px;
   border-radius: 10px;
@@ -41,8 +41,8 @@
   transition-duration: 0.2s;
   box-shadow: 0 0 transparent;
 }
-.collapsable-header-hamburguer:before,
-.collapsable-header-hamburguer:after {
+.collapsable-sidebar-hamburguer:before,
+.collapsable-sidebar-hamburguer:after {
   content: '';
   height: 4px;
   border-radius: 10px;
@@ -54,7 +54,7 @@
   transition-property: opacity, width, height, background-color;
   transition-duration: 0.2s;
 }
-.collapsable-header-hamburguer.open {
+.collapsable-sidebar-hamburguer.open {
   transition-delay: 0s !important;
   transition-timing-function: ease-in-out;
   top: 0;
@@ -65,8 +65,8 @@
   border-radius: 0;
   box-shadow: inset 0 0 500px 100px rgba(0,0,0,0.2);
 }
-.collapsable-header-hamburguer.open:before,
-.collapsable-header-hamburguer.open:after {
+.collapsable-sidebar-hamburguer.open:before,
+.collapsable-sidebar-hamburguer.open:after {
   transition-delay: 0s !important;
   transition-timing-function: ease-in-out;
   width: 0;
@@ -74,14 +74,14 @@
   opacity: 0;
   background-color: rgba(0,0,0,0.2);
 }
-.collapsable-header-hamburguer:before {
+.collapsable-sidebar-hamburguer:before {
   top: 12px;
 }
-.collapsable-header-hamburguer:after {
+.collapsable-sidebar-hamburguer:after {
   top: 24px;
 }
 @media (min-width: 1025px) {
-  .collapsable-header-hamburguer {
+  .collapsable-sidebar-hamburguer {
     display: none;
   }
 }
