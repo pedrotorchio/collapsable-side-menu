@@ -40,7 +40,6 @@
   opacity: 1;
   transition-property: background-color, box-shadow;
   transition-duration: 0.2s;
-  box-shadow: 0 0 transparent;
 }
 .collapsable-sidebar-hamburguer:before,
 .collapsable-sidebar-hamburguer:after {
