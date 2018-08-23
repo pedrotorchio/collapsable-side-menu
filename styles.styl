@@ -21,11 +21,11 @@ delay(delayIt = true, overrider = false)
   delay(false);
   
   &.open
-    left: 0;
+    left: 0 !important;
     delay(true, true);
 
   +lg()
-    left: 0;
+    left: 0 !important;
 
 .collapsable-sidebar, .collapsable-sidebar-hamburguer
   transition: left .5s cubic-bezier(0,.08,0,1.01);
